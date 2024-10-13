@@ -11,7 +11,7 @@ import time
 from PIL import Image
 import matplotlib.pyplot as plt
 
-st.title('Предсказание случайной картинки какой-то моделью :)')
+st.title('ВЛАДОСИК ТОП ДЕВОПСИК точно фрик :)')
 
 # установка устройства и загрузка модели
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else

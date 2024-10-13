@@ -1,4 +1,4 @@
-name: /Users/alex_eyfler/ds_bootcamp/ds-phase-2/env
+name: nn_project
 channels:
   - pytorch
   - conda-forge
@@ -22,14 +22,13 @@ dependencies:
   - lerc=4.0.0
   - libblas=3.9.0
   - libcblas=3.9.0
-  - libcxx=19.1.1
+  # - libcxx=19.1.1
   - libdeflate=1.21
   - libexpat=2.6.3
   - libffi=3.4.2
-  - libgfortran
-  - libgfortran5=13.2.0
+#  - libgfortran5=13.2.0
   - libjpeg-turbo=3.0.0
-  - liblapack=3.9.0
+#  - liblapack=3.9.0
   - libopenblas=0.3.24
   - libpng=1.6.44
   - libsqlite=3.46.1
@@ -61,7 +60,7 @@ dependencies:
   - setuptools=75.1.0
   - sympy=1.13.3
   - tk=8.6.13
-  - torchaudio=2.4.1
+  # - torchaudio=2.4.1
   - torchvision=0.19.1
   - typing_extensions=4.12.2
   - urllib3=2.2.3
@@ -192,3 +191,4 @@ dependencies:
       - webencodings==0.5.1
       - websocket-client==1.8.0
       - widgetsnbextension==4.0.13
+

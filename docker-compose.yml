@@ -1,0 +1,11 @@
+services:
+  app:
+    container_name: GPT_9
+    build: .
+    volumes:
+    - .:/app 
+    ports:
+      - "8501:8501" 
+    command: ["conda", "run", "--no-capture-output", "-n", "nn_project", "streamlit", "run", "app.py"]
+
+
